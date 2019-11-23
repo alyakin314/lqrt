@@ -21,8 +21,6 @@ on install directly via pip:
 pip install lqrt
 ```
 
-
-
 ## Import
 The recommended import line is 
 ```python
@@ -39,12 +37,12 @@ This is unnecessary for the actual usage of the package, only for examples)
 
 
 ## Usage
-There are three tests implemented in this repostory: Single sample, related 
+There are three tests implemented in this repostory: one sample, related 
 samples (also known as paired) and independent samples (also known as 
 unpaired). 
 
-### Single sample
-The single sample test performs the Lq-Likelihood-test for the mean of one group
+### One sample
+The one sample test performs the Lq-Likelihood-test for the mean of one group
 of scores.
 It is a robust two-sided test for the null hypothesis that the expected 
 value (mean) of a sample of independent observations is equal to the given
@@ -136,7 +134,7 @@ LqRtest_indResult(statistic=31.09168298440227, pvalue=0.0)
 LLqRtest_indResult(statistic=31.251454446588696, pvalue=0.0)
 ```
 
-### q parameter
+### parameter q
 All test functions have an argument q which specifies the q parameter of 
 the Lq-likelihood. The q should typically be within [0.5, 1.0] and the 
 lower value is associated with a more robust test. If left unspecified of
@@ -158,11 +156,12 @@ Lqrtest_1sampResult(statistic=3.710699836358458, pvalue=0.08)
 Lqrtest_1sampResult(statistic=5.5937088664291394, pvalue=0.06)
 ```
 
-### Critical Value Bootstrap
-The critical value for the tests is obtained via a bootstrap procedure, 
-outlined in Qin and Priebe (2017). By default - 100 resamples are used,
-but the number can be changed. Increasing the number of samples increases
-the precision of the p-value, but adds on computational work.
+### p-Value Bootstrap
+The p-value for the tests is obtained via a bootstrap procedure, outlined in
+Qin and Priebe (2017).
+By default - 100 resamples are used, but the number can be changed. Increasing
+the number of samples increases the precision of the p-value, but adds on
+computational work.
 
 #### Example:
 ```python
