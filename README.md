@@ -1,6 +1,6 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-# Robust Testing using Lq-Likelihood
+# Robust Hypothesis Testing of Location Parameters using Lq-Likelihood-Ratio-Type Test in Python
 
 This package implements a robust hypothesis testing procedure: the 
 Lq-likelihood-ratio-type test (LqRT), introduced in Qin and Priebe (2017).

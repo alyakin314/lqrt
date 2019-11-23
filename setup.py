@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='lqrt',
-    version='0.3.1',
+    version='0.3.2',
     author='Anton Alyakin',
     author_email='aalyaki1@jhu.edu',
-    description='Robust Hypothesis testing via Lqlikelihood',
+    description='Robust Hypothesis Testing of Location Parameters using Lq-Likelihood-Ratio-Type Test in Python',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/alyakin314/lqrt',
