@@ -5,11 +5,12 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='lqrt',
-    version='1.0',
+    version='0.3.1',
     author='Anton Alyakin',
     author_email='aalyaki1@jhu.edu',
-    description='Robust Hypothesis testing via Lq-likelihood',
+    description='Robust Hypothesis testing via Lqlikelihood',
     long_description=long_description,
+    long_description_content_type='text/markdown',
     url='https://github.com/alyakin314/lqrt',
     packages=['lqrt'],
     install_requires=['numpy', 'scipy'],

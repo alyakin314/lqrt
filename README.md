@@ -10,12 +10,18 @@ The code replicates and extends the R package which can be found here
 ## Installation
 
 In order to install the package one needs to have python 3.x installed, then
- clone the repository from github and install using pip:
+either clone the repository from github and install using pip:
 ```
 git clone https://github.com/alyakin314/lqrt
 cd lqrt
 pip install .
 ```
+on install directly via pip:
+```
+pip install lqrt
+```
+
+
 
 ## Import
 The recommended import line is 
