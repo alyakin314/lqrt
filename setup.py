@@ -12,7 +12,7 @@ setuptools.setup(
     long_description=long_description,
     url='https://github.com/alyakin314/lqrt',
     packages=['lqrt'],
-    install_requires=['numpy', 'scipy', 'tqdm'],
+    install_requires=['numpy', 'scipy'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
