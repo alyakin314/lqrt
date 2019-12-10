@@ -176,3 +176,5 @@ Lqrtest_1sampResult(statistic=0.36665186821102225, pvalue=0.5483)
 
 ## References
 Qin, Yichen & E. Priebe, Carey. (2017). Robust Hypothesis Testing via Lq-Likelihood. Statistica Sinica. 27. 10.5705/ss.202015.0441. 
+
+Alyakin, A., Qin, Y., & Priebe, C. E. (2019). LqRT: Robust Hypothesis Testing of Location Parameters using Lq-Likelihood-Ratio-Type Test in Python. arXiv preprint arXiv:1911.11922.
