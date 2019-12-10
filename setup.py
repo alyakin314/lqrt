@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='lqrt',
-    version='0.3.2',
+    version='0.3.3',
     author='Anton Alyakin',
     author_email='aalyaki1@jhu.edu',
     description='Robust Hypothesis Testing of Location Parameters using Lq-Likelihood-Ratio-Type Test in Python',
