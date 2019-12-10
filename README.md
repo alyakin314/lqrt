@@ -4,7 +4,7 @@
 
 This package implements a robust hypothesis testing procedure: the 
 Lq-likelihood-ratio-type test (LqRT), introduced in Qin and Priebe (2017).
-The code replicates and extends the R package which can be found here
+The code replicates and extends the R package which can be found
 [here](http://homepages.uc.edu/~qinyn/LqLR/). The paper supporting this 
 package is currently in review; a preprint can be found 
 [here](https://arxiv.org/abs/1911.11922).
